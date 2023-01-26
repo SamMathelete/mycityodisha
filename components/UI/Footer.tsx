@@ -1,9 +1,14 @@
+import FooterPrev from "./FooterPrev";
+
 const Footer = () => {
-    return (
-        <footer>
-            <p>Footer</p>
-        </footer>
-    )
-}
+  return (
+    <>
+      <FooterPrev />
+      <footer>
+        <p>Footer</p>
+      </footer>
+    </>
+  );
+};
 
 export default Footer;
