@@ -37,7 +37,7 @@ const SideDrawer: FC<Props> = ({onClose}) => {
 
                         whileTap={{scale: 0.95}}
                     >
-                        <Link href="/about">
+                        <Link href="/About">
                             About
                         </Link>
                     </motion.li>
@@ -55,7 +55,7 @@ const SideDrawer: FC<Props> = ({onClose}) => {
                                     className={styles.sublink}
                                     whileTap={{scale: 0.95}}
                                 >
-                                    <Link href="/projects/web">
+                                    <Link href="/Projects/1">
                                         Project 1
                                     </Link>
                                 </motion.li>
@@ -63,7 +63,7 @@ const SideDrawer: FC<Props> = ({onClose}) => {
                                     className={styles.sublink}
                                     whileTap={{scale: 0.95}}
                                 >
-                                    <Link href="/projects/mobile">
+                                    <Link href="/Projects/2">
                                         Project 2
                                     </Link>
                                 </motion.li>
@@ -74,7 +74,7 @@ const SideDrawer: FC<Props> = ({onClose}) => {
                         className={styles.link}
                         whileTap={{scale: 0.95}}
                     >
-                        <Link href="/services">
+                        <Link href="/Services">
                             Services
                         </Link>
                     </motion.li>
@@ -82,7 +82,7 @@ const SideDrawer: FC<Props> = ({onClose}) => {
                         className={styles.link}
                         whileTap={{scale: 0.95}}
                     >
-                        <Link href="/contact">
+                        <Link href="/Contact">
                             Contact
                         </Link>
                     </motion.li>

@@ -29,7 +29,7 @@ const Header = () => {
                             whileHover={{scale: 1.1}}
                             whileTap={{scale: 0.95}}
                         >
-                            <Link href="/about">
+                            <Link href="/About">
                                 About
                             </Link>
                         </motion.li>
@@ -40,7 +40,7 @@ const Header = () => {
                             onHoverStart={() => setIsOpen(true)}
                             onHoverEnd={() => setIsOpen(false)}
                         >
-                            <Link href="/projects">
+                            <Link href="/Projects">
                                 Projects
                             </Link>
                             <motion.div
@@ -54,7 +54,7 @@ const Header = () => {
                                         whileHover={{scale: 1.1}}
                                         whileTap={{scale: 0.95}}
                                     >
-                                        <Link href="/projects/web">
+                                        <Link href="/Projects/1">
                                             Project 1
                                         </Link>
                                     </motion.li>
@@ -63,7 +63,7 @@ const Header = () => {
                                         whileHover={{scale: 1.1}}
                                         whileTap={{scale: 0.95}}
                                     >
-                                        <Link href="/projects/mobile">
+                                        <Link href="/Projects/2">
                                             Project 2
                                         </Link>
                                     </motion.li>
@@ -75,7 +75,7 @@ const Header = () => {
                             whileHover={{scale: 1.1}}
                             whileTap={{scale: 0.95}}
                         >
-                            <Link href="/services">
+                            <Link href="/Services">
                                 Services
                             </Link>
                         </motion.li>
@@ -84,7 +84,7 @@ const Header = () => {
                             whileHover={{scale: 1.1}}
                             whileTap={{scale: 0.95}}
                         >
-                            <Link href="/contact">
+                            <Link href="/Contact">
                                 Contact
                             </Link>
                         </motion.li>
