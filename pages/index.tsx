@@ -1,9 +1,10 @@
 import Layout from "../components/UI/Layout";
+import MainCarousel from "../components/UI/MainCarousel";
 
 const Home = () => {
   return (
     <Layout>
-      <h1>Home</h1>
+      <MainCarousel />
     </Layout>
   );
 };
