@@ -4,6 +4,7 @@ import TextImageLeft from "../components/UI/TextImageLeft";
 import TextImageRight from "../components/UI/TextImageRight";
 import styles from "./Home.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import CustomerSpeak from "../components/UI/CustomerSpeak";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         </div>
         <TextImageRight />
         <TextImageLeft />
+        <CustomerSpeak quote="Hello, World!!" author="Someone" />
       </div>
     </Layout>
   );
