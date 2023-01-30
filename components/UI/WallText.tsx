@@ -8,7 +8,13 @@ interface Props {
 
 const WallText: FC<Props> = ({ children, image }) => {
   return (
-    <div className={styles.wall} background-image={`url('${image}')`}>
+    <div
+      className={styles.wall}
+      style={{
+        backgroundImage: `url('${image}')`,
+        backgroundSize: "cover",
+      }}
+    >
       <h1>{children}</h1>
     </div>
   );
