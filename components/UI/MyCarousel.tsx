@@ -6,7 +6,7 @@ import styles from "./MyCarousel.module.css";
 
 const MyCarousel = () => {
   return (
-    <Carousel fade>
+    <Carousel interval={2000} fade>
       <Carousel.Item>
         <Image className={styles["carousel-image"]} src={img1} alt="demo1" />
         <Carousel.Caption>

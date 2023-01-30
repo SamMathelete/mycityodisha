@@ -15,7 +15,7 @@ const WallText: FC<Props> = ({ children, image }) => {
         backgroundSize: "cover",
       }}
     >
-      <h1>{children}</h1>
+      <div className={styles["wall-text"]}>{children}</div>
     </div>
   );
 };
