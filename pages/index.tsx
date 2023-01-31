@@ -4,7 +4,10 @@ import TextImageLeft from "../components/UI/TextImageLeft";
 import TextImageRight from "../components/UI/TextImageRight";
 import styles from "./Home.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import CustomerSpeak from "../components/UI/CustomerSpeak";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import TestimonialCarousel from "../components/UI/TestimonialCarousel";
+import DUMMY_TESTIMONIALS from "../data/dummytestimonials";
 
 const Home = () => {
   return (
@@ -15,7 +18,7 @@ const Home = () => {
         </div>
         <TextImageRight />
         <TextImageLeft />
-        <CustomerSpeak quote="Hello, World!!" author="Someone" />
+        <TestimonialCarousel testimonials={DUMMY_TESTIMONIALS} />
       </div>
     </Layout>
   );
