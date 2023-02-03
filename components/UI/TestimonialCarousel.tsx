@@ -25,7 +25,7 @@ const TestimonialCarousel: FC<Data> = ({ testimonials }) => {
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1400,
+        breakpoint: 1300,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -34,7 +34,7 @@ const TestimonialCarousel: FC<Data> = ({ testimonials }) => {
         },
       },
       {
-        breakpoint: 1200,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,

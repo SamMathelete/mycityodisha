@@ -1,8 +1,11 @@
 .text-image-left {
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
   justify-content: space-between;
-  margin: 0 0 0rem 0;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  height: 35rem;
 }
 
 .text-image-left__title {
@@ -16,12 +19,15 @@
 }
 
 .text-image-left__image {
-  width: 50%;
+  width: 45%;
+  height: 25rem;
+  overflow: hidden;
 }
 
 .image {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {

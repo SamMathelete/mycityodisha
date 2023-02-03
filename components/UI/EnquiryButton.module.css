@@ -11,6 +11,14 @@
   box-shadow: 0px 0px 4px #666;
 }
 
+.enquiry-button a {
+  text-decoration: none;
+  color: #fff;
+}
+.enquiry-button a:hover {
+  color: yellow;
+}
+
 .enquiry-button-text {
   font-size: 1rem;
   color: #fff;

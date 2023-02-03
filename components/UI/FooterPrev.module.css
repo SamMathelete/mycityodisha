@@ -3,8 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  height: 18rem;
-  padding: 1rem 3.5rem;
+  height: 100%;
+  padding: 3.5rem;
   background-color: #f5f5f5;
   border-top: 1px solid #e5e5e5;
 }
@@ -34,6 +34,8 @@
 }
 
 .quickLinksListItem {
+  display: flex;
+  flex-direction: row;
   width: 10rem;
   border-bottom: 1px solid #e5e5e5;
   font-size: 1rem;
@@ -46,7 +48,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 25rem;
+  width: 33.33%;
 }
 
 .socialTitle {
@@ -68,14 +70,17 @@
 }
 
 .socialListItem {
-  width: 2rem;
-  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
   border: 1px solid #e5e5e5;
   font-size: 14px;
   font-weight: 400;
   color: #000;
-  margin: 0.5rem 0;
 }
 
 .contact {
@@ -104,7 +109,10 @@
 }
 
 .contactListItem {
-  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
   border-bottom: 1px solid #e5e5e5;
   font-size: 14px;
   font-weight: 400;
@@ -116,8 +124,8 @@
   .mainContainer {
     flex-direction: column;
     justify-content: space-between;
-    height: 35rem;
-    padding: 1rem 1rem;
+    height: 100%;
+    padding: 2rem;
   }
 
   .quickLinks {
@@ -155,7 +163,7 @@
   }
 
   .social {
-    width: 25rem;
+    width: 30rem;
     height: 100%;
     margin: 1rem 0.5rem;
     background-color: #f5f5f5;
@@ -173,15 +181,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
-    height: 100%;
     margin: 0 0.5rem;
     background-color: #f5f5f5;
   }
 
   .socialListItem {
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     border: 1px solid #e5e5e5;
     font-size: 14px;
@@ -216,7 +222,7 @@
   }
 
   .contactListItem {
-    width: 10rem;
+    width: 30rem;
     border-bottom: 1px solid #e5e5e5;
     font-size: 14px;
     font-weight: 400;
@@ -229,8 +235,8 @@
   .mainContainer {
     flex-direction: row;
     justify-content: space-between;
-    height: 18rem;
-    padding: 1rem 2rem;
+    height: 100%;
+    padding: 4rem;
   }
 
   .quickLinks {
@@ -292,8 +298,8 @@
   }
 
   .socialListItem {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     border: 1px solid #e5e5e5;
     font-size: 14px;
@@ -324,7 +330,7 @@
   }
 
   .contactListItem {
-    width: 10rem;
+    width: 20rem;
     border-bottom: 1px solid #e5e5e5;
     font-size: 14px;
     font-weight: 400;

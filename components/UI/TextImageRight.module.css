@@ -2,7 +2,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 0 0rem 0;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  height: 35rem;
 }
 
 .text-image-right__title {
@@ -16,12 +19,13 @@
 }
 
 .text-image-right__image {
-  width: 50%;
+  width: 45%;
 }
 
 .image {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {

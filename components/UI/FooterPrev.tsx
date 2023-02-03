@@ -1,5 +1,16 @@
 import React from "react";
 import classes from "./FooterPrev.module.css";
+import {
+  mdiFacebook,
+  mdiTwitter,
+  mdiInstagram,
+  mdiLinkedin,
+  mdiChevronRight,
+  mdiPhone,
+  mdiEmail,
+  mdiMapMarker,
+} from "@mdi/js";
+import Icon from "@mdi/react";
 
 const FooterPrev = () => {
   return (
@@ -7,28 +18,78 @@ const FooterPrev = () => {
       <div className={classes.quickLinks}>
         <div className={classes.quickLinksTitle}>Quick Links</div>
         <div className={classes.quickLinksList}>
-          <div className={classes.quickLinksListItem}>Home</div>
-          <div className={classes.quickLinksListItem}>About</div>
-          <div className={classes.quickLinksListItem}>Services</div>
-          <div className={classes.quickLinksListItem}>Gallery</div>
-          <div className={classes.quickLinksListItem}>Contact</div>
+          <div className={classes.quickLinksListItem}>
+            <Icon path={mdiChevronRight} size={1} />
+            Home
+          </div>
+          <div className={classes.quickLinksListItem}>
+            <Icon path={mdiChevronRight} size={1} />
+            About
+          </div>
+          <div className={classes.quickLinksListItem}>
+            <Icon path={mdiChevronRight} size={1} />
+            Services
+          </div>
+          <div className={classes.quickLinksListItem}>
+            <Icon path={mdiChevronRight} size={1} />
+            Gallery
+          </div>
+          <div className={classes.quickLinksListItem}>
+            <Icon path={mdiChevronRight} size={1} />
+            Contact
+          </div>
         </div>
       </div>
       <div className={classes.social}>
         <div className={classes.socialTitle}>Social</div>
         <div className={classes.socialList}>
-          <div className={classes.socialListItem}>Facebook</div>
-          <div className={classes.socialListItem}>Twitter</div>
-          <div className={classes.socialListItem}>Instagram</div>
-          <div className={classes.socialListItem}>LinkedIn</div>
+          <div className={classes.socialListItem}>
+            <Icon path={mdiFacebook} size={1.5} />
+          </div>
+          <div className={classes.socialListItem}>
+            <Icon path={mdiTwitter} size={1.5} />
+          </div>
+          <div className={classes.socialListItem}>
+            <Icon path={mdiInstagram} size={1.5} />
+          </div>
+          <div className={classes.socialListItem}>
+            <Icon path={mdiLinkedin} size={1.5} />
+          </div>
         </div>
       </div>
       <div className={classes.contact}>
         <div className={classes.contactTitle}>Contact</div>
         <div className={classes.contactList}>
-          <div className={classes.contactListItem}>Phone: 123-456-7890</div>
-          <div className={classes.contactListItem}>Email: abc@xyz.com</div>
-          <div className={classes.contactListItem}>Address: 123 Main St.</div>
+          <div className={classes.contactListItem}>
+            <Icon
+              path={mdiPhone}
+              size={1}
+              style={{
+                marginRight: "1rem",
+              }}
+            />
+            +91 9586753298
+          </div>
+          <div className={classes.contactListItem}>
+            <Icon
+              path={mdiEmail}
+              size={1}
+              style={{
+                marginRight: "1rem",
+              }}
+            />
+            info@mycityodisha.com
+          </div>
+          <div className={classes.contactListItem}>
+            <Icon
+              path={mdiMapMarker}
+              size={1.1}
+              style={{
+                marginRight: "1rem",
+              }}
+            />
+            <div>K8/01, Kalinga Nagar, Near Sum Hospital, Bhubaneswar</div>
+          </div>
         </div>
       </div>
     </div>

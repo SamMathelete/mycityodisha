@@ -4,7 +4,9 @@ import styles from "./EnquiryButton.module.css";
 const EnquiryButton = () => {
   return (
     <div className={styles["enquiry-button"]}>
-      <div className={styles["enquiry-button-text"]}>ENQUIRY</div>
+      <div className={styles["enquiry-button-text"]}>
+        <a href="#GetIntoTouch">ENQUIRY</a>
+      </div>
     </div>
   );
 };

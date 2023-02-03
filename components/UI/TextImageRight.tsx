@@ -1,21 +1,22 @@
-import Image from "next/image";
-import React from "react";
-import demo from "../../assets/images/img1.jpg";
+import Image, { StaticImageData } from "next/image";
+import React, { FC } from "react";
 import styles from "./TextImageRight.module.css";
 
-const TextImageRight = () => {
+interface Props {
+  title: string;
+  description: string;
+  image: StaticImageData;
+}
+
+const TextImageRight: FC<Props> = ({ title, description, image }) => {
   return (
     <div className={styles["text-image-right"]}>
       <div className={styles["text-image-right__text"]}>
-        <div className={styles["text-image-right__title"]}>Title</div>
-        <p className={styles["text-image-right__description"]}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          condimentum, nisl ut aliquam lacinia, nunc nisl aliquam lorem, eget
-          aliquam nisl nisl sit amet nunc. Nulla facilisi. Nulla facilisi.
-        </p>
+        <div className={styles["text-image-right__title"]}>{title}</div>
+        <p className={styles["text-image-right__description"]}>{description}</p>
       </div>
       <div className={styles["text-image-right__image"]}>
-        <Image src={demo} className={styles["image"]} alt="demo" />
+        <Image src={image} className={styles["image"]} alt="demo" />
       </div>
     </div>
   );
