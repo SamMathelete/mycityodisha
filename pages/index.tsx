@@ -12,6 +12,7 @@ import GetInTouchForm from "../components/UI/GetInTouchForm";
 import residential from "../assets/images/residential.jpeg";
 import commercial from "../assets/images/commercial.png";
 import property from "../assets/images/property.jpeg";
+import CallExperts from "../components/UI/CallExperts";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
           image={property}
         />
         <TextImageLeft
+          id="residential"
           title="Residential"
           description="
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -46,6 +48,7 @@ const Home = () => {
           image={residential}
         />
         <TextImageRight
+          id="commercial"
           title="Commercial"
           description="
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -59,6 +62,7 @@ const Home = () => {
         />
         <TestimonialCarousel testimonials={DUMMY_TESTIMONIALS} />
         <GetInTouchForm />
+        <CallExperts />
       </div>
     </Layout>
   );

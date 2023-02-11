@@ -1,0 +1,43 @@
+.call-experts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  margin: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.call-experts__title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.call-experts__phone {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.call-experts__line {
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.call-experts__line__text {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 1rem 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .call-experts__text {
+    width: 100%;
+  }
+}
