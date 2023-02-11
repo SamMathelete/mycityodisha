@@ -29,7 +29,7 @@ const SideDrawer: FC<Props> = ({ onClose }) => {
             <Link href="/">Home</Link>
           </motion.li>
           <motion.li className={styles.link} whileTap={{ scale: 0.95 }}>
-            <Link href="#about">About</Link>
+            <Link href="/#about">About</Link>
           </motion.li>
           <motion.li
             className={styles.link}
@@ -55,7 +55,7 @@ const SideDrawer: FC<Props> = ({ onClose }) => {
             )}
           </motion.li>
           <motion.li className={styles.link} whileTap={{ scale: 0.95 }}>
-            <Link href="#GetIntoTouch">Contact</Link>
+            <Link href="/#GetIntoTouch">Contact</Link>
           </motion.li>
         </ul>
       </div>

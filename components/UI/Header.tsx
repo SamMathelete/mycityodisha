@@ -31,12 +31,11 @@ const Header = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link href="#about">About</Link>
+              <Link href="/#about">About</Link>
             </motion.li>
             <motion.li
               className={styles.link}
               whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
               onHoverStart={() => setIsOpen(true)}
               onHoverEnd={() => setIsOpen(false)}
             >
@@ -50,14 +49,12 @@ const Header = () => {
                   <motion.li
                     className={styles.link}
                     whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
                   >
                     <Link href="/Projects/1">Project 1</Link>
                   </motion.li>
                   <motion.li
                     className={styles.link}
                     whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
                   >
                     <Link href="/Projects/2">Project 2</Link>
                   </motion.li>
@@ -69,7 +66,7 @@ const Header = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link href="#GetIntoTouch">Contact</Link>
+              <Link href="/#GetIntoTouch">Contact</Link>
             </motion.li>
           </ul>
           <MenuOutlinedIcon
