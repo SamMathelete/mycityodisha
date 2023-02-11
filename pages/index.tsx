@@ -21,6 +21,7 @@ const Home = () => {
           <MyCarousel />
         </div>
         <TextImageRight
+          id="about"
           title="About Us"
           description="
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.

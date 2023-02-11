@@ -5,7 +5,8 @@
   align-items: center;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  height: 35rem;
+  height: 100%;
+  margin: 0 2rem;
 }
 
 .text-image-right__title {
@@ -32,6 +33,8 @@
   .text-image-right {
     flex-direction: column;
     align-items: flex-start;
+    height: 100%;
+    margin: 0 2rem;
   }
 
   .text-image-right__text {

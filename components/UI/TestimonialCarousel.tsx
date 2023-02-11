@@ -20,10 +20,19 @@ const TestimonialCarousel: FC<Data> = ({ testimonials }) => {
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 2000,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
+      {
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
       {
         breakpoint: 1300,
         settings: {
@@ -51,7 +60,7 @@ const TestimonialCarousel: FC<Data> = ({ testimonials }) => {
     ],
   };
   return (
-    <div className={styles.container}>
+    <div id="testimonials" className={styles.container}>
       <div className={styles.heading}>Testimonials</div>
       <Slider className={styles.carousel} {...settings}>
         {testimonials.map((testimonial) => (

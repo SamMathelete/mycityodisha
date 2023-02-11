@@ -1,40 +1,45 @@
 /* SideDrawer.module.css */
 .drawer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 70%;
-    height: 100%;
-    background: white;
-    z-index: 2;
-    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background: white;
+  z-index: 2;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .content {
-    padding: 16px;
+  padding: 16px;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 1rem;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 1rem;
+  padding: 0;
 }
 
 .link {
-    margin: 1rem 0;
-    font-size: 1.15rem;
-    text-decoration: none;
+  margin: 1rem 0;
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
 }
 
 .sublink {
-    margin-left: 1.5rem;
-    margin-top: 1rem;
-    font-size: 1rem;
-    text-decoration: none;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 .fakeLink {
-    cursor: pointer;
+  cursor: pointer;
 }

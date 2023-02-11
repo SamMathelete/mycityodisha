@@ -31,7 +31,7 @@ const Header = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link href="/About">About</Link>
+              <Link href="#about">About</Link>
             </motion.li>
             <motion.li
               className={styles.link}
@@ -69,14 +69,7 @@ const Header = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link href="/Services">Services</Link>
-            </motion.li>
-            <motion.li
-              className={styles.link}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Link href="/Contact">Contact</Link>
+              <Link href="#GetIntoTouch">Contact</Link>
             </motion.li>
           </ul>
           <MenuOutlinedIcon

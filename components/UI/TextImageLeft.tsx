@@ -6,11 +6,12 @@ interface Props {
   title: string;
   description: string;
   image: StaticImageData;
+  id: string;
 }
 
-const TextImageLeft: FC<Props> = ({ title, description, image }) => {
+const TextImageLeft: FC<Props> = ({ title, description, image, id }) => {
   return (
-    <div className={styles["text-image-left"]}>
+    <div id={id} className={styles["text-image-left"]}>
       <div className={styles["text-image-left__text"]}>
         <div className={styles["text-image-left__title"]}>{title}</div>
         <p className={styles["text-image-left__description"]}>{description}</p>
