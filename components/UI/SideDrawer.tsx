@@ -25,10 +25,18 @@ const SideDrawer: FC<Props> = ({ onClose }) => {
           onClick={onClose}
         />
         <ul className={styles.links}>
-          <motion.li className={styles.link} whileTap={{ scale: 0.95 }}>
+          <motion.li
+            className={styles.link}
+            whileTap={{ scale: 0.95 }}
+            onClick={onClose}
+          >
             <Link href="/">Home</Link>
           </motion.li>
-          <motion.li className={styles.link} whileTap={{ scale: 0.95 }}>
+          <motion.li
+            className={styles.link}
+            whileTap={{ scale: 0.95 }}
+            onClick={onClose}
+          >
             <Link href="/#about">About</Link>
           </motion.li>
           <motion.li
@@ -42,19 +50,25 @@ const SideDrawer: FC<Props> = ({ onClose }) => {
                 <motion.li
                   className={styles.sublink}
                   whileTap={{ scale: 0.95 }}
+                  onClick={onClose}
                 >
                   <Link href="/Projects/1">Project 1</Link>
                 </motion.li>
                 <motion.li
                   className={styles.sublink}
                   whileTap={{ scale: 0.95 }}
+                  onClick={onClose}
                 >
                   <Link href="/Projects/2">Project 2</Link>
                 </motion.li>
               </>
             )}
           </motion.li>
-          <motion.li className={styles.link} whileTap={{ scale: 0.95 }}>
+          <motion.li
+            className={styles.link}
+            whileTap={{ scale: 0.95 }}
+            onClick={onClose}
+          >
             <Link href="/#GetIntoTouch">Contact</Link>
           </motion.li>
         </ul>
