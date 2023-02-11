@@ -11,6 +11,7 @@ import {
   mdiMapMarker,
 } from "@mdi/js";
 import Icon from "@mdi/react";
+import Link from "next/link";
 
 const FooterPrev = () => {
   return (
@@ -19,24 +20,22 @@ const FooterPrev = () => {
         <div className={classes.quickLinksTitle}>Quick Links</div>
         <div className={classes.quickLinksList}>
           <div className={classes.quickLinksListItem}>
-            <Icon path={mdiChevronRight} size={1} />
-            Home
+            <Link href="/">
+              <Icon path={mdiChevronRight} size={1} />
+              Home
+            </Link>
           </div>
           <div className={classes.quickLinksListItem}>
-            <Icon path={mdiChevronRight} size={1} />
-            About
+            <Link href="/#about">
+              <Icon path={mdiChevronRight} size={1} />
+              About
+            </Link>
           </div>
           <div className={classes.quickLinksListItem}>
-            <Icon path={mdiChevronRight} size={1} />
-            Services
-          </div>
-          <div className={classes.quickLinksListItem}>
-            <Icon path={mdiChevronRight} size={1} />
-            Gallery
-          </div>
-          <div className={classes.quickLinksListItem}>
-            <Icon path={mdiChevronRight} size={1} />
-            Contact
+            <Link href="/#GetIntoTouch">
+              <Icon path={mdiChevronRight} size={1} />
+              Contact
+            </Link>
           </div>
         </div>
       </div>
@@ -44,16 +43,24 @@ const FooterPrev = () => {
         <div className={classes.socialTitle}>Social</div>
         <div className={classes.socialList}>
           <div className={classes.socialListItem}>
-            <Icon path={mdiFacebook} size={1.5} />
+            <Link href="https://www.facebook.com/mycityodisha">
+              <Icon path={mdiFacebook} size={1.5} />
+            </Link>
           </div>
           <div className={classes.socialListItem}>
-            <Icon path={mdiTwitter} size={1.5} />
+            <Link href="https://twitter.com/mycityodisha">
+              <Icon path={mdiTwitter} size={1.5} />
+            </Link>
           </div>
           <div className={classes.socialListItem}>
-            <Icon path={mdiInstagram} size={1.5} />
+            <Link href="https://www.instagram.com/mycityodisha/">
+              <Icon path={mdiInstagram} size={1.5} />
+            </Link>
           </div>
           <div className={classes.socialListItem}>
-            <Icon path={mdiLinkedin} size={1.5} />
+            <Link href="https://www.linkedin.com/company/mycityodisha">
+              <Icon path={mdiLinkedin} size={1.5} />
+            </Link>
           </div>
         </div>
       </div>
