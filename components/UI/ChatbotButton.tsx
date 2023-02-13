@@ -1,5 +1,7 @@
 import { useState } from "react";
 import styles from "./ChatbotButton.module.css";
+import { mdiRobotExcitedOutline } from "@mdi/js";
+import Icon from "@mdi/react";
 
 const ChatbotButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,7 +9,7 @@ const ChatbotButton = () => {
   return (
     <div>
       <button className={styles.chatButton} onClick={() => setIsOpen(!isOpen)}>
-        Chat
+        <Icon path={mdiRobotExcitedOutline} size={1.5} />
       </button>
       <div className={`${styles.chatContent} ${isOpen && styles.open}`}>
         <p>Chatbot: Hello, how can I help you today?</p>

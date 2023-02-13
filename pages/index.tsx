@@ -1,7 +1,7 @@
 import Layout from "../components/UI/Layout";
-import MyCarousel from "../components/UI/MyCarousel";
 import TextImageLeft from "../components/UI/TextImageLeft";
 import TextImageRight from "../components/UI/TextImageRight";
+import Image from "next/image";
 import styles from "./Home.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
@@ -13,14 +13,20 @@ import residential from "../assets/images/residential.jpeg";
 import commercial from "../assets/images/commercial.png";
 import property from "../assets/images/property.jpeg";
 import CallExperts from "../components/UI/CallExperts";
+import img1 from "../assets/images/1.png";
 
 const Home = () => {
   return (
     <Layout>
       <div className={styles.mainContainer}>
-        <div className={styles["carousel-container"]}>
-          <MyCarousel />
-        </div>
+        <Image
+          src={img1}
+          style={{
+            width: "100%",
+            height: "100%",
+          }}
+          alt="main"
+        />
         <TextImageRight
           id="about"
           title="About Us"
