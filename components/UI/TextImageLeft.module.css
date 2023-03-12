@@ -18,6 +18,8 @@
   width: 50%;
   margin: 0 1rem 0 2rem;
   text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .text-image-left__image {
