@@ -23,7 +23,8 @@ const Home = () => {
           src={img1}
           style={{
             width: "100%",
-            height: "100%",
+            height: "80vh",
+            objectFit: "cover",
           }}
           alt="main"
         />
@@ -31,12 +32,9 @@ const Home = () => {
           id="about"
           title="About Us"
           description="
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed euismod, nisl nec tincidunt lacinia, nunc est aliquam
-            nunc, eget aliquam nisl nisl sit amet nisl. Sed euismod,
-            nisl nec tincidunt lacinia, nunc est aliquam nunc, eget
-            aliquam nisl nisl sit amet nisl. Sed euismod, nisl nec
-            tincidunt lacinia, nunc est aliquam nunc, eget aliquam.
+            Welcome to MyCityOdisha, a leading real estate company based in Bhubaneswar, Odisha. 
+            Our mission is to help you find your dream home in one of the most beautiful and vibrant cities in India.
+            At MyCityOdisha, we understand that buying or selling a property can be a complex and time-consuming process. That is why we offer a range of services designed to make the process as smooth and stress-free as possible. Our team of experienced real estate professionals is dedicated to helping you find the perfect home, whether you are looking for an apartment, a villa, or a plot of land.
           "
           image={property}
         />
@@ -44,12 +42,9 @@ const Home = () => {
           id="residential"
           title="Residential"
           description="
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed euismod, nisl nec tincidunt lacinia, nunc est aliquam
-            nunc, eget aliquam nisl nisl sit amet nisl. Sed euismod,
-            nisl nec tincidunt lacinia, nunc est aliquam nunc, eget
-            aliquam nisl nisl sit amet nisl. Sed euismod, nisl nec
-            tincidunt lacinia, nunc est aliquam nunc, eget aliquam.
+            We offer a wide range of properties to suit all budgets and requirements, from affordable apartments in bustling city centers to luxurious villas in peaceful suburban neighborhoods. Our team will work closely with you to understand your needs and preferences, and help you find a property that meets your exact specifications.
+
+In addition to our real estate services, we also offer a range of other services designed to help you settle into your new home. These include interior design services, relocation assistance, and property management services.
           "
           image={residential}
         />
@@ -57,12 +52,7 @@ const Home = () => {
           id="commercial"
           title="Commercial"
           description="
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed euismod, nisl nec tincidunt lacinia, nunc est aliquam
-            nunc, eget aliquam nisl nisl sit amet nisl. Sed euismod,
-            nisl nec tincidunt lacinia, nunc est aliquam nunc, eget
-            aliquam nisl nisl sit amet nisl. Sed euismod, nisl nec
-            tincidunt lacinia, nunc est aliquam nunc, eget aliquam.
+          Bhubaneswar, the capital city of Odisha, is known for its rich cultural heritage, beautiful temples, and stunning natural beauty. It is also one of the fastest-growing cities in India, with a rapidly expanding economy and a booming real estate market. Whether you are looking to buy, sell, or rent a property in Bhubaneswar, MyCityOdisha is here to help.
           "
           image={commercial}
         />

@@ -50,13 +50,7 @@ const Header = () => {
                     className={styles.link}
                     whileHover={{ scale: 1.1 }}
                   >
-                    <Link href="/Projects/1">Project 1</Link>
-                  </motion.li>
-                  <motion.li
-                    className={styles.link}
-                    whileHover={{ scale: 1.1 }}
-                  >
-                    <Link href="/Projects/2">Project 2</Link>
+                    <Link href="/Projects/1">Project Vasudev Vihar</Link>
                   </motion.li>
                 </motion.ul>
               </motion.div>

@@ -17,6 +17,13 @@
 .text-image-right__text {
   width: 50%;
   margin: 0 1rem 0 2rem;
+  text-align: justify;
+}
+
+.text-image-right__description {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
 }
 
 .text-image-right__image {

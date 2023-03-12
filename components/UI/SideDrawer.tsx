@@ -52,14 +52,7 @@ const SideDrawer: FC<Props> = ({ onClose }) => {
                   whileTap={{ scale: 0.95 }}
                   onClick={onClose}
                 >
-                  <Link href="/Projects/1">Project 1</Link>
-                </motion.li>
-                <motion.li
-                  className={styles.sublink}
-                  whileTap={{ scale: 0.95 }}
-                  onClick={onClose}
-                >
-                  <Link href="/Projects/2">Project 2</Link>
+                  <Link href="/Projects/1">Project Vasudev Vihar</Link>
                 </motion.li>
               </>
             )}

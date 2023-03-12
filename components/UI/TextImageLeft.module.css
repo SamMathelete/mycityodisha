@@ -17,6 +17,7 @@
 .text-image-left__text {
   width: 50%;
   margin: 0 1rem 0 2rem;
+  text-align: justify;
 }
 
 .text-image-left__image {
