@@ -7,9 +7,16 @@ interface Props {
   description: string;
   image: StaticImageData;
   id: string;
+  textStyle?: React.CSSProperties;
 }
 
-const TextImageLeft: FC<Props> = ({ title, description, image, id }) => {
+const TextImageLeft: FC<Props> = ({
+  title,
+  description,
+  image,
+  id,
+  textStyle,
+}) => {
   return (
     <div id={id} className={styles["text-image-left"]}>
       <div className={styles["text-image-left__text"]}>

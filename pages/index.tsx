@@ -23,8 +23,8 @@ const Home = () => {
           src={img1}
           style={{
             width: "100%",
-            height: "80vh",
-            objectFit: "cover",
+            height: "100%",
+            objectFit: "contain",
           }}
           alt="main"
         />

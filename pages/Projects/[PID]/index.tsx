@@ -45,14 +45,17 @@ const ProjectDetails = () => {
         id="1"
         image={Poster}
         title="About Project"
-        description="Project Vasudev Vihar is a spacious plotting project at affordable price point located in Mendhasala Square, Bhubaneswar. Spread over 47 acres, it is a mega plotting project consisting of more than 1500 plots. The project is strategically located near Infocity-2, making it easily accessible to all major landmarks in the city. The nearest landmarks include IDCO Sea Food Corporation,ICAR,Horticulture,Infocity 2, Sparsh Hospital, Mount Litera Zee School, and Subrat Bagchi Cancer Hospital. One of the most significant advantages of this project is its location. The project is situated just off the Cuttack-Pitapalli Highway, providing excellent connectivity to all major parts of the city. Moreover, the project offers a 30 feet  internal main road connecting the highway, which ensures easy access for all vehicles and commute. The project offers a plethora of amenities to cater to the needs of the residents. It boasts of an amusement park, which is perfect for spending quality time with family and friends. It also has a temple where residents can seek divine blessings. The project offers electrification and borewell facilities, ensuring that the residents have access to uninterrupted water and electricity supply. Furthermore, the project has a dedicated plantation area to ensure greenery and a pollution-free environment.
+        description="Project Vasudev Vihar is a spacious plotting project at affordable price point located in Mendhasala Square, Bhubaneswar. Spread over 47 acres, it is a mega plotting project consisting of more than 1500 plots. The project is strategically located near Infocity-2, making it easily accessible to all major landmarks in the city. The nearest landmarks include IDCO Sea Food Corporation,ICAR,Horticulture,Infocity 2, Sparsh Hospital, Mount Litera Zee School, and Subrat Bagchi Cancer Hospital. One of the most significant advantages of this project is its location. The project is situated just off the Cuttack-Pitapalli Highway, providing excellent connectivity to all major parts of the city. Moreover, the project offers a 30 feet internal main road connecting the highway, which ensures easy access for all vehicles and commute.
       "
+        textStyle={{
+          fontSize: "1.5rem",
+        }}
       />
       <TextImageLeft
         id="2"
         image={P1}
         title="Project Highlights"
-        description="The project is designed keeping in mind the safety and security of the residents. It offers 24*7 security service with CCTV facilities, ensuring that the residents are always safe and secure. The project is also well connected with government MO bus services, making it easy for the residents to commute within the city."
+        description="The project offers a plethora of amenities to cater to the needs of the residents. It boasts of an amusement park, which is perfect for spending quality time with family and friends. It also has a temple where residents can seek divine blessings. The project offers electrification and borewell facilities, ensuring that the residents have access to uninterrupted water and electricity supply. Furthermore, the project has a dedicated plantation area to ensure greenery and a pollution-free environment. The project is designed keeping in mind the safety and security of the residents. It offers 24*7 security service with CCTV facilities, ensuring that the residents are always safe and secure. The project is also well connected with government MO bus services, making it easy for the residents to commute within the city."
       />
       <TextImageRight
         id="3"

@@ -5,12 +5,11 @@ import { DataGrid } from "@mui/x-data-grid";
 import { Button } from "@mui/material";
 
 const FormResponses = () => {
-  const [responses, setResponses] = useState([]);
+  const [responses, setResponses] = useState<any>([]);
   useEffect(() => {
     const unsubscribe = onSnapshot(collection(db, "responses"), (snapshot) => {
       const responses = snapshot.docs.map((doc) => ({
         ...doc.data(),
-        createdAt: doc.id,
       }));
       setResponses(responses);
     });
@@ -26,7 +25,7 @@ const FormResponses = () => {
       field: "delete",
       headerName: "Delete",
       width: 120,
-      renderCell: (params) => (
+      renderCell: (params: any) => (
         <Button
           variant="contained"
           color="error"
