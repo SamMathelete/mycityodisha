@@ -22,6 +22,12 @@
   font-weight: 400;
 }
 
+.text-image-left__description {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
 .text-image-left__image {
   width: 45%;
   height: 25rem;
