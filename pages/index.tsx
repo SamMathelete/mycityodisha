@@ -13,21 +13,13 @@ import residential from "../assets/images/residential.jpeg";
 import commercial from "../assets/images/commercial.png";
 import property from "../assets/images/property.jpeg";
 import CallExperts from "../components/UI/CallExperts";
-import img1 from "../assets/images/1.png";
+import LandingPage from "../components/UI/LandingPage";
 
 const Home = () => {
   return (
     <Layout>
       <div className={styles.mainContainer}>
-        <Image
-          src={img1}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "contain",
-          }}
-          alt="main"
-        />
+        <LandingPage />
         <TextImageRight
           id="about"
           title="About Us"
