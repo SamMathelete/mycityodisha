@@ -24,6 +24,18 @@ const GetInTouchForm = () => {
     const id = `${firstName}-${lastName}-${Timestamp.now()
       .toDate()
       .toISOString()}`;
+
+    const valid =
+      firstName!.length > 0 &&
+      lastName!.length > 0 &&
+      email!.length > 0 &&
+      phone!.length > 0 &&
+      message!.length > 0;
+    if (!valid) {
+      alert("Please fill all the fields");
+      return;
+    }
+
     const data = {
       id,
       firstName,
