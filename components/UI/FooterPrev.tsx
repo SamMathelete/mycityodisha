@@ -75,7 +75,7 @@ const FooterPrev = () => {
                 marginRight: "1rem",
               }}
             />
-            +91 9586753298
+            +91 72056 33644
           </div>
           <div className={classes.contactListItem}>
             <Icon
