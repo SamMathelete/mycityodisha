@@ -48,7 +48,7 @@ In addition to our real estate services, we also offer a range of other services
           "
           image={commercial}
         />
-        <TestimonialCarousel testimonials={DUMMY_TESTIMONIALS} />
+        {/*<TestimonialCarousel testimonials={[]} />*/}
         <GetInTouchForm />
         <CallExperts />
       </div>
